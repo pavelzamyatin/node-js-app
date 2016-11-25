@@ -1,13 +1,13 @@
 body{
     background: #0d1521;
-    font-family: tahoma;
+    font-family: monospace;
     color: #989898;
 }
 
 #todo-table{
     position: relative;
     width: 95%;
-    background: #090d13;
+    background: #eee;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -22,8 +22,9 @@ body{
 
 input[type="text"]{
     width: 70%;
+    max-width: 400px;
     padding: 20px;
-    background:#181c22;
+    background:#fff;
     border: 0;
     float: left;
     font-size: 20px;
@@ -33,6 +34,7 @@ input[type="text"]{
 button{
     padding: 20px;
     width: 30%;
+    max-width: 150px;
     float: left;
     background: #23282e;
     border: 0;
@@ -64,7 +66,7 @@ li:hover{
 }
 
 h1{
-    background: url(/logo.png) no-repeat center;
+    background: url(/assets/logo.png) no-repeat center;
     margin-bottom: 0;
     text-indent: -10000px;
 }
